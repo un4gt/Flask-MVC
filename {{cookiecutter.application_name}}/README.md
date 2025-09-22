@@ -3,7 +3,7 @@
 ## Getting start
 
 ```bash
-set FLASK_APP={{ cookiecutter.application_name }}:{{cookiecutter.app_name}}
+set FLASK_APP=main:app
 
 flask run
 ```
@@ -11,5 +11,5 @@ flask run
 or
 
 ```bash
-flask --app {{ cookiecutter.application_name }}:{{cookiecutter.app_name}} run
+flask --app main:app run
 ```
